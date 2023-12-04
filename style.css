@@ -1,0 +1,479 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: content-box;
+}
+:root {
+  --white: white;
+  --black: black;
+  --g: grey;
+  --light-g: whitesmoke;
+  --bnb-pink: #ff5a5f;
+  --butt-back: rgb(34, 34, 34);
+}
+body {
+  font-family: "Figtree";
+  overflow-x: hidden;
+}
+header {
+  position: fixed;
+  z-index: 1;
+  background: var(--white);
+  height: 150px;
+}
+.headerone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img[src="/header.png"] {
+  position: relative;
+  top: 10px;
+  left: 19px;
+  width: 15%;
+}
+#any {
+  position: relative;
+  left: -390px;
+  padding: 0px 0px 0px 0px;
+  top: 4px;
+  display: flex;
+  border: 1px solid var(--g);
+  justify-content: center;
+  align-items: center;
+  border-radius: 85px;
+  height: 40px;
+  width: 480px;
+  box-shadow: 0px 0px 2px 1px var(--g);
+}
+#any p {
+  padding: 0px 36px 0px 22px;
+  font-size: 15px;
+}
+#any span {
+  color: var(--g);
+}
+#search {
+  display: flex;
+  position: relative;
+  top: 5px;
+  left: -431px;
+  height: 30px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  background: var(--bnb-pink);
+  border-radius: 20px;
+}
+#bnbhome {
+  position: relative;
+  top: 0px;
+  right: 144px;
+  padding: 0px 0px 0px 0px;
+  /* border: solid; */
+}
+i[class="fa-solid fa-globe"] {
+  position: relative;
+  top: 0px;
+  right: 110px;
+}
+#login {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+  right: 79px;
+  height: 40px;
+  width: 100px;
+  border: solid 1px;
+  border-radius: 10px;
+}
+header hr {
+  position: relative;
+  top: 10px;
+}
+img[alt="a"] {
+  height: 30px;
+}
+.headercontainer {
+  /* border: solid; */
+  display: flex;
+  position: relative;
+  top: 17px;
+  left: -42px;
+  width: 1044px;
+  justify-content: space-evenly;
+}
+.not {
+  position: relative;
+  left: -13px;
+  width: 1000px;
+}
+#ufo {
+  position: relative;
+  left: -9px;
+}
+#key {
+  position: relative;
+  left: -26px;
+}
+#fire {
+  position: relative;
+  left: -26px;
+}
+#pool {
+  position: relative;
+  left: -36px;
+}
+#golf {
+  position: relative;
+  left: -55px;
+}
+#temple {
+  position: relative;
+  left: -66px;
+}
+#home {
+  position: relative;
+  left: -43px;
+}
+#filters {
+  border: solid 1px;
+  display: flex;
+  height: 38px;
+  width: 100px;
+  position: relative;
+  top: -30px;
+  left: 976px;
+  font-size: large;
+  border-radius: 8px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#taxes {
+  display: flex;
+  border: solid 1px;
+  height: 37px;
+  width: 248px;
+  position: relative;
+  top: -70px;
+  left: 1092px;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: large;
+  border-radius: 8px;
+}
+#map {
+  z-index: 1;
+  margin: 610px 0px 0px 607px;
+  bottom: 10px;
+  background: var(--butt-back);
+  color: var(--white);
+  box-shadow: 0 0 0 1px;
+  border-radius: 24px;
+  border: none;
+  height: 50px;
+  width: 153px;
+  position: fixed;
+}
+.container {
+  display: flex;
+  /* border: solid; */
+  position: relative;
+  justify-content: space-between;
+  height: 382px;
+  width: 1330px;
+  top: 177px;
+  left: 14px;
+  flex-wrap: wrap;
+}
+.container i {
+  position: relative;
+  left: 260px;
+  top: 10px;
+}
+.items {
+  /* border: dotted; */
+  height: 70%;
+  width: 22%;
+  border-radius: 10px;
+}
+#back1 {
+  background: url(1.1.jpeg) no-repeat center;
+  background-size: cover;
+}
+#back2 {
+  background: url(1.2.png) no-repeat center;
+  background-size: cover;
+}
+#back3 {
+  background: url(1.3.jpeg) no-repeat center;
+  background-size: cover;
+}
+#back4 {
+  background: url(1.4.jpeg) no-repeat center;
+  background-size: cover;
+}
+.text {
+  position: relative;
+  top: 260px;
+}
+#back5 {
+  background: url(2.1.jpeg) no-repeat center;
+  background-size: cover;
+}
+#back6 {
+  background: url(2.2.jpeg) no-repeat center;
+  background-size: cover;
+}
+#back7 {
+  background: url(2.3.jpeg) no-repeat center;
+  background-size: cover;
+}
+#back8 {
+  background: url(2.4.jpeg) no-repeat center;
+  background-size: cover;
+}
+#back9 {
+  background: url(3.1.jpeg) no-repeat center;
+  background-size: cover;
+}
+#back10 {
+  background: url(3.2.jpeg) no-repeat center;
+  background-size: cover;
+}
+#back11 {
+  background: url(3.3.jpeg) no-repeat center;
+  background-size: cover;
+}
+#back12 {
+  background: url(3.4.jpeg) no-repeat center;
+  background-size: cover;
+}
+#back13 {
+  background: url(4.1.jpeg) no-repeat center;
+  background-size: cover;
+}
+#back14 {
+  background: url(4.2.jpg) no-repeat center;
+  background-size: cover;
+}
+#back15 {
+  background: url(4.3.jpeg) no-repeat center;
+  background-size: cover;
+}
+#back16 {
+  background: url(4.4.jpeg) no-repeat center;
+  background-size: cover;
+}
+#back17 {
+  background: url(5.1.jpg) no-repeat center;
+  background-size: cover;
+}
+#back18 {
+  background: url(5.2.jpeg) no-repeat center;
+  background-size: cover;
+}
+#back19 {
+  background: url(5.3.jpg) no-repeat center;
+  background-size: cover;
+}
+#back20 {
+  background: url(5.4.jpg) no-repeat center;
+  background-size: cover;
+}
+#back21 {
+  background: url(6.1.jpg) no-repeat center;
+  background-size: cover;
+}
+#back22 {
+  background: url(6.2.jpeg) no-repeat center;
+  background-size: cover;
+}
+#back23 {
+  background: url(6.3.jpg) no-repeat center;
+  background-size: cover;
+}
+#back24 {
+  background: url(6.4.jpeg) no-repeat center;
+  background-size: cover;
+}
+#back25 {
+  background: url(7.1.jpg) no-repeat center;
+  background-size: cover;
+}
+#back26 {
+  background: url(7.2.jpg) no-repeat center;
+  background-size: cover;
+}
+#back27 {
+  background: url(7.3.jpeg) no-repeat center;
+  background-size: cover;
+}
+#back28 {
+  background: url(7.4.jpg) no-repeat center;
+  background-size: cover;
+}
+#back29 {
+  background: url(8.1.jpeg) no-repeat center;
+  background-size: cover;
+}
+#back30 {
+  background: url(8.2.jpg) no-repeat center;
+  background-size: cover;
+}
+#back31 {
+  background: url(8.3.jpg) no-repeat center;
+  background-size: cover;
+}
+#back32 {
+  background: url(8.4.jpg) no-repeat center;
+  background-size: cover;
+}
+#back33 {
+  background: url(9.1.jpg) no-repeat center;
+  background-size: cover;
+}
+#back34 {
+  background: url(9.2.jpeg) no-repeat center;
+  background-size: cover;
+}
+#back35 {
+  background: url(9.3.jpg) no-repeat center;
+  background-size: cover;
+}
+#back36 {
+  background: url(9.4.jpg) no-repeat center;
+  background-size: cover;
+}
+#back37 {
+  background: url(10.1.jpg) no-repeat center;
+  background-size: cover;
+}
+#back38 {
+  background: url(10.2.jpg) no-repeat center;
+  background-size: cover;
+}
+#back39 {
+  background: url(10.3.jpeg) no-repeat center;
+  background-size: cover;
+}
+#back40 {
+  background: url(10.4.jpg) no-repeat center;
+  background-size: cover;
+}
+.container + p {
+  position: relative;
+  top: 206px;
+  left: 539px;
+}
+.container ~ button {
+  position: relative;
+  top: -382px;
+  left: -8px;
+  margin: 610px 0px 0px 607px;
+  background: var(--butt-back);
+  color: var(--white);
+  box-shadow: 0 0 0 1px;
+  border-radius: 24px;
+  border: none;
+  height: 50px;
+  width: 153px;
+}
+footer {
+  background: var(--light-g);
+  display: block;
+  height: 130vh;
+  position: relative;
+  top: -270px;
+}
+footer > h2 {
+  position: relative;
+  top: 45px;
+  left: 37px;
+}
+#horizontal-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  position: relative;
+  top: 70px;
+  left: 34px;
+  color: var(--g);
+  margin-bottom: 90px;
+}
+
+#horizontal-list li {
+  margin-right: 30px;
+}
+#horizontal-list ~ hr {
+  position: relative;
+  top: 100px;
+}
+#table {
+  position: relative;
+  top: 40px;
+}
+#table1 {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#table1 td {
+  padding: 20px;
+}
+#table {
+  margin-bottom: 90px;
+}
+#listinfooter {
+  display: flex;
+  /* border: solid; */
+  height: 200px;
+  justify-content: left;
+  position: relative;
+  top: 50px;
+  left: 40px;
+  margin-bottom: 100px;
+}
+#listinfooter12 {
+  margin-left: 100px;
+}
+#listinfooter13 {
+  margin-left: 100px;
+}
+.rockey {
+  list-style: none;
+  line-height: 30px;
+  color: var(--g);
+}
+.makeblack {
+  color: var(--black);
+}
+#copy {
+  display: flex;
+  /* border: solid; */
+  width: 600px;
+}
+#copy1 {
+  display: flex;
+  list-style: none;
+}
+#copy1 li {
+  padding-left: 20px;
+}
+#contact {
+  /* border: solid; */
+  position: relative;
+  top: -14px;
+  left: 1100px;
+  height: 20px;
+  width: 500px;
+}
+#contact1 {
+ display: flex;
+}
+#contact1 li {
+  display: flex;
+  padding-left:10px; 
+ }
