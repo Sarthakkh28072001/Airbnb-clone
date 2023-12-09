@@ -1,1 +1,1 @@
-This is my Airbnb clone using HTML or CSS.
+This is my Airbnb clone using <strong>HTML</strong> and <strong>CSS</strong>.
